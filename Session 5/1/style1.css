@@ -1,0 +1,31 @@
+/* .Mau {
+    color: red;
+/* }
+.Mau .Xanh {
+    color: green;
+}  */
+/* .Mau .Xanh {
+    color: green;
+} */
+/* .Doimau {
+    color: red;
+} */
+/* .dong2 {
+    background-color: #00FF00;
+} */
+/* .doiFont {
+    font-size: 24px;
+} */
+/* a[target="_blank"] {
+    color: yellow;
+}
+ul li {
+    font-weight: bold;
+} */
+.item > span {
+    font-size: 18px;
+    color: red;
+}
+.item > div > span {
+    font-style: italic;
+}

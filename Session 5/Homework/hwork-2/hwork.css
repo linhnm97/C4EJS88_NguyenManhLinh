@@ -1,0 +1,26 @@
+table, th, td{
+    border:1px solid black;
+    padding-left:50px;
+    padding-right: 50px; 
+    border-spacing: 1px;
+}
+table{
+    border-collapse:collapse;
+    text-align: center;
+}
+.Button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button {
+    border: outset ;
+    background-color: white;
+    outline-color: blue;
+}
+.alert {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    border: inset ;
+}
