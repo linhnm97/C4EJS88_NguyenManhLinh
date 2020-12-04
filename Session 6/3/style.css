@@ -1,0 +1,67 @@
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tin {
+    width: 350px;
+}
+.tin img {
+    width: 100%;
+}
+.anhtin {
+    position: relative;
+    width: 350px;
+    height: 219px;
+    z-index: 2;
+} */
+/* .anhtin .hinhbe {
+    width: 50px;
+    display: block;
+    z-index: 3;
+} */
+/* a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 10px 0px;
+    display: inline-block;
+}
+.icon {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    bottom: 20px;
+}
+.icon span {
+    color: blue;
+} */
+.parent {
+    display: flex;
+    flex-direction: round;
+    width: 1200px;
+    height: 500px;
+    background-color: purple;
+    justify-content: space-evenly; 
+    /* căn theo hướng flex */
+    align-items: center;
+    /* căn theo hướng vuông góc flex */
+}
+.child1{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+.child2{
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+}
+.child3{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
