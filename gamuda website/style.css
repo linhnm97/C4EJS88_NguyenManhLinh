@@ -83,7 +83,6 @@ img {
   flex-direction: column;
 }
 #bside-post {
-  display: flex;
   background-color: red;
   width: 20%;
   height: 670px;
@@ -93,11 +92,69 @@ img {
 #opening-post {
   padding-bottom: 20px;
 }
+#opening-post>h1{
+  padding-bottom: 20px;
+}
+#date-post {
+  text-align: right;
+  padding-bottom: 10px;
+  font-style: italic;
+  color:rgba(34, 32, 32, 0.301)
+}
 #body-post {
   padding-bottom: 20px;
 }
 #comment {
     padding-bottom: 20px;
+}
+#write-comment {
+  display: flex;
+  width: 788px;
+  height: 140px;
+  line-height: 40px;
+  background-color: #64c4e4;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+
+#user-comment> #text {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    border: none;
+    overflow: auto; 
+    overflow-wrap: break-word; 
+    max-height: 80%;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 70%;
+    height: 80%;
+}
+#user-comment>button {
+    background-color: #64c4e4;
+    font-size: 18px;
+    width: 20%;
+    margin-left: 10px;
+    height: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#user-comment {
+  margin-left: 29px;
+  margin-top: 10px;
+  margin-right: 12px;
+  width: 90%;
+  display: flex;
+}
+.account-image {
+  width: 100px;
+  border-radius: 50%;
+  border: 1px groove #64c4e4;
+}
+img#main-user-image {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .comment {
   display: flex;
